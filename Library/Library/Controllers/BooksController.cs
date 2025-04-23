@@ -51,6 +51,7 @@ namespace Library.Controllers
 
 
         [HttpGet]
+        [ResponseCache(Duration = 60)]
         public async Task<ActionResult<IEnumerable<Book>>> GetAllBooks()
         {
             var books = await _context.Books.ToListAsync();
@@ -60,6 +61,7 @@ namespace Library.Controllers
 
         // GET: api/Books/books
         [HttpGet("books")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetBooks(
             [FromQuery] string? search = null,
             [FromQuery] string? sort = "Id",
@@ -131,6 +133,7 @@ namespace Library.Controllers
 
         // GET: api/Books/{serialNumber} (Get a book by Serial Number)
         [HttpGet("{serialNumber}")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetBook(string serialNumber)
         {
             _logger.LogInformation("Fetching book with serial number: {SerialNumber}", serialNumber);
@@ -264,6 +267,7 @@ namespace Library.Controllers
         }
 
         [HttpGet("pending-borrows")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetPendingBorrows()
         {
             var currentTime = DateTime.UtcNow;
@@ -502,6 +506,7 @@ namespace Library.Controllers
             });
         }
         [HttpGet("books-by-borrow-history")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetBooksByBorrowHistory(
     [FromQuery] string? search = null,
     [FromQuery] string? sort = "Id",
@@ -643,6 +648,7 @@ namespace Library.Controllers
         }
 
         [HttpGet("pending-returns")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetPendingReturns()
         {
             var currentTime = DateTime.UtcNow;
@@ -764,6 +770,7 @@ namespace Library.Controllers
         }
 
         [HttpGet("image/{serialNumber}")]
+        [ResponseCache(Duration = 60)]
         public IActionResult GetBookImage(string serialNumber)
         {
             var book = _context.Books.FirstOrDefault(b => b.SerialNumber == serialNumber);
@@ -788,6 +795,7 @@ namespace Library.Controllers
         }
 
         [HttpGet("PDF/{serialNumber}")]
+        [ResponseCache(Duration = 60)]
         public IActionResult GetBookPDF(string serialNumber)
         {
             var book = _context.Books.FirstOrDefault(b => b.SerialNumber == serialNumber);
@@ -816,6 +824,7 @@ namespace Library.Controllers
 
 
         [HttpGet("PDFReader/{serialNumber}/{userId}")]
+        [ResponseCache(Duration = 60)]
         public IActionResult GetBookPDF(string serialNumber, string userId)
         {
             userId = Uri.UnescapeDataString(userId);
@@ -946,6 +955,7 @@ namespace Library.Controllers
         }
 
         [HttpGet("borrow-history")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetAllBorrowHistory(
             [FromQuery] string? UserId,
             [FromQuery] string? UserType,
@@ -1050,6 +1060,7 @@ namespace Library.Controllers
 
 
         [HttpGet("borrow-history/{UserId}")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetBorrowHistory(string UserId, [FromQuery] bool? overdue, [FromQuery] DateTime? startDate, [FromQuery] DateTime? endDate, [FromQuery] string? Department)
         {
             UserId = Uri.UnescapeDataString(UserId);
@@ -1162,8 +1173,9 @@ namespace Library.Controllers
                 return StatusCode(500, new { message = "An error occurred while updating the book.", error = ex.Message });
             }
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("export")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> ExportBooks()
         {
             _logger.LogInformation("Exporting books to Excel...");
@@ -1205,8 +1217,9 @@ namespace Library.Controllers
                 }
             }
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("import")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> ImportBooks(IFormFile file)
         {
             if (file == null || file.Length == 0)

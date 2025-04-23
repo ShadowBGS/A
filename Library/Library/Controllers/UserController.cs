@@ -424,6 +424,7 @@ namespace Library.Controllers
 
         // ✅ Get all users
         [HttpGet]
+        [ResponseCache(Duration = 60)]
         public async Task<ActionResult<object>> GetUsers()
         {
             _logger.LogInformation("Fetching all users.");
@@ -452,6 +453,7 @@ namespace Library.Controllers
         }
 
         [HttpGet("Users")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetAllBorrowHistory(
     [FromQuery] string? UserId,
     [FromQuery] string? UserType,
@@ -705,6 +707,7 @@ namespace Library.Controllers
 
 
         [HttpGet("{UserId}")]
+        [ResponseCache(Duration = 60)]
         public async Task<ActionResult<object>> GetUser(string UserId)
         {
             _logger.LogInformation($"Fetching details for user with ID: {UserId}");
@@ -863,7 +866,9 @@ namespace Library.Controllers
             _logger.LogInformation($"User with ID {userId} deleted.");
             return Ok(new { message = "User deleted successfully." });
         }
+        [Authorize(Roles = "Admin")]
         [HttpGet("export-users")]
+        [ResponseCache(Duration = 60)]
         public async Task<IActionResult> ExportUsers()
         {
             var users = await _context.Users.ToListAsync();
@@ -910,6 +915,7 @@ namespace Library.Controllers
                 }
             }
         }
+        [Authorize(Roles = "Admin")]
         [HttpPost("import-users")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> ImportUsers(IFormFile file)
