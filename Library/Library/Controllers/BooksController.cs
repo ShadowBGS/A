@@ -474,7 +474,7 @@ namespace Library.Controllers
             }
 
             // Allowed borrow time for online borrow (1 hour)
-            float allowedBorrowHours = student.UserType == "Lecturer" ? 1 : 1;
+            float allowedBorrowHours = student.UserType == "Lecturer" ? 24 : 12;
             DateTime dueDate = DateTime.UtcNow.AddHours(allowedBorrowHours);
 
             // Create borrow record
