@@ -1,19 +1,23 @@
-# Use the .NET SDK image to build the app
+# Use the official .NET SDK image
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Copy everything and restore dependencies
+# Copy the whole repo
 COPY . .
-RUN dotnet restore ./Library/Library.csproj
 
-# Build and publish the app
-RUN dotnet publish ./Library/Library.csproj -c Release -o /out
+# Restore using the correct path
+RUN dotnet restore Library/Library/Library.csproj
 
-# Use the .NET runtime image
+# Build and publish
+RUN dotnet publish Library/Library/Library.csproj -c Release -o /app/publish
+
+# Use the runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
-COPY --from=build /out .
+COPY --from=build /app/publish .
 
-# Expose the port your app listens on
+# Expose the default port
 EXPOSE 80
+
+# Launch the app
 ENTRYPOINT ["dotnet", "Library.dll"]
