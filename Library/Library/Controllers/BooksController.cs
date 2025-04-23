@@ -21,7 +21,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Library.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BooksController : ControllerBase
