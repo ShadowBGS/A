@@ -79,15 +79,20 @@ builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {
     options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
 });
+builder.Services.AddResponseCompression(options =>
+{
+    options.EnableForHttps = true;
+});
 var app = builder.Build();
 //app.UseMiddleware<ApiKeyMiddleware>();
 app.UseCors("AllowAllOrigins");
 
 app.UseForwardedHeaders();
 // Configure the HTTP request pipeline
-
+app.UseResponseCompression();
 app.UseSwagger();
 app.UseSwaggerUI();
+app.MapGet("/ping", () => Results.Ok("pong"));
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(uploadsPath),
