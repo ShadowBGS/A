@@ -1,0 +1,450 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\migrations\\20250407075938_pdfadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\migrations\\20250407075938_pdfadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\migrations\\20250417083624_mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\migrations\\20250417083624_mail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\models\\borrowrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\logs\\myapp20250416.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\logs\\myapp20250416.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.BorrowRecords.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\autoreturnonlinebooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\autoreturnonlinebooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\helpers\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\helpers\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\migrations\\20250331060424_apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\migrations\\20250331060424_apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\models\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\models\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\migrations\\20250414104728_ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\migrations\\20250414104728_ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|c:\\users\\oluwademilade.fajolu\\source\\repos\\library_management_project\\demi\\library\\library\\migrations\\20250417083852_mail1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D57BA47-035A-4F84-9B57-7B713B63FEB6}|Library\\Library.csproj|solutionrelative:library\\migrations\\20250417083852_mail1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-18T10:07:30.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250417083852_mail1.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250417083852_mail1.cs",
+              "RelativeDocumentMoniker": "Library\\Migrations\\20250417083852_mail1.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250417083852_mail1.cs",
+              "RelativeToolTip": "Library\\Migrations\\20250417083852_mail1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:38:53.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250417083624_mail.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250417083624_mail.cs",
+              "RelativeDocumentMoniker": "Library\\Migrations\\20250417083624_mail.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250417083624_mail.cs",
+              "RelativeToolTip": "Library\\Migrations\\20250417083624_mail.cs",
+              "ViewState": "AgIAAAsAAAAAMzMzMzPzvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:36:24.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Library\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Services\\EmailService.cs",
+              "RelativeToolTip": "Library\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:31:58.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailOtp.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\EmailOtp.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\EmailOtp.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\EmailOtp.cs",
+              "RelativeToolTip": "Library\\Models\\EmailOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:23:25.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "myapp20250416.txt",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\logs\\myapp20250416.txt",
+              "RelativeDocumentMoniker": "Library\\logs\\myapp20250416.txt",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\logs\\myapp20250416.txt",
+              "RelativeToolTip": "Library\\logs\\myapp20250416.txt",
+              "ViewState": "AgIAAAtxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-16T02:27:39.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250414104728_ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250414104728_ticket.cs",
+              "RelativeDocumentMoniker": "Library\\Migrations\\20250414104728_ticket.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250414104728_ticket.cs",
+              "RelativeToolTip": "Library\\Migrations\\20250414104728_ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T10:47:28.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.BorrowRecords.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.BorrowRecords.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.BorrowRecords.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-10T09:45:07.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Helpers\\Helpers.cs",
+              "RelativeDocumentMoniker": "Library\\Helpers\\Helpers.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Helpers\\Helpers.cs",
+              "RelativeToolTip": "Library\\Helpers\\Helpers.cs",
+              "ViewState": "AgIAAAEAAABAMzMzMzMTwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:41:57.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Library\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\JwtSettings.cs",
+              "RelativeToolTip": "Library\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:39:18.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Library\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Services\\JwtService.cs",
+              "RelativeToolTip": "Library\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAQAAACAmZmZmZkpwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:37:56.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Library.csproj",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Library.csproj",
+              "RelativeDocumentMoniker": "Library\\Library.csproj",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Library.csproj",
+              "RelativeToolTip": "Library\\Library.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T10:36:55.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dbo.Books.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Library_DB/True/SqlTable/dbo.Books.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-08T07:41:20.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Library\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Library\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T08:08:02.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BorrowRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\BorrowRecord.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\BorrowRecord.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\BorrowRecord.cs",
+              "RelativeToolTip": "Library\\Models\\BorrowRecord.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:14:36.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\Books.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\Books.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\Books.cs",
+              "RelativeToolTip": "Library\\Models\\Books.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T06:55:19.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Library\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Library\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAHMAAAAAMDMzMzMDwP8EAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:33:45.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250331060424_apikey.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250331060424_apikey.cs",
+              "RelativeDocumentMoniker": "Library\\Migrations\\20250331060424_apikey.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250331060424_apikey.cs",
+              "RelativeToolTip": "Library\\Migrations\\20250331060424_apikey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:04:25.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApiKey.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\ApiKey.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\ApiKey.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\ApiKey.cs",
+              "RelativeToolTip": "Library\\Models\\ApiKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:02:13.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:14:33.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AutoReturnOnlineBooksService.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\AutoReturnOnlineBooksService.cs",
+              "RelativeDocumentMoniker": "Library\\AutoReturnOnlineBooksService.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\AutoReturnOnlineBooksService.cs",
+              "RelativeToolTip": "Library\\AutoReturnOnlineBooksService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:55:32.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250407075938_pdfadded.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250407075938_pdfadded.cs",
+              "RelativeDocumentMoniker": "Library\\Migrations\\20250407075938_pdfadded.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Migrations\\20250407075938_pdfadded.cs",
+              "RelativeToolTip": "Library\\Migrations\\20250407075938_pdfadded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:59:38.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Controllers\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "Library\\Controllers\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Controllers\\UserLoginController.cs",
+              "RelativeToolTip": "Library\\Controllers\\UserLoginController.cs",
+              "ViewState": "AgIAAI8AAAAAwMzMzMz8v2sAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T11:34:13.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Models\\User.cs",
+              "RelativeToolTip": "Library\\Models\\User.cs",
+              "ViewState": "AgIAABEAAACAZmZmZmYqwCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T09:24:53.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Library\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Library\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T09:14:20.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\appsettings.json",
+              "RelativeDocumentMoniker": "Library\\appsettings.json",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\appsettings.json",
+              "RelativeToolTip": "Library\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T10:13:02.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Library\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Library\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAKcCAACgZWZmZmYowLwCAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:58:36.295Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
