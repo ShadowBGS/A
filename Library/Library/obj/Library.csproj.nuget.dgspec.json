@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Library.csproj": {}
+    "C:\\Users\\Oluwademilade.Fajolu\\Downloads\\Library_Dockerized_Final\\Library\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Library.csproj": {
+    "C:\\Users\\Oluwademilade.Fajolu\\Downloads\\Library_Dockerized_Final\\Library\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\Oluwademilade.Fajolu\\Downloads\\Library_Dockerized_Final\\Library\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\Oluwademilade.Fajolu\\Downloads\\Library_Dockerized_Final\\Library\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\Oluwademilade.Fajolu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oluwademilade.Fajolu\\source\\repos\\Library_Management_Project\\Demi\\Library\\Library\\obj\\",
+        "outputPath": "C:\\Users\\Oluwademilade.Fajolu\\Downloads\\Library_Dockerized_Final\\Library\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,6 +108,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.Extensions.Hosting.WindowsServices": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -115,6 +119,14 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[8.7.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

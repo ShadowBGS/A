@@ -1173,6 +1173,30 @@
         }
       }
     },
+    "/ping": {
+      "get": {
+        "tags": [
+          "Library"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ping": {
+      "get": {
+        "tags": [
+          "Ping"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/user": {
       "get": {
         "tags": [
@@ -2003,17 +2027,21 @@
         ],
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "serialNumber": {
             "type": "string",
             "nullable": true
           },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "name": {
             "minLength": 1,
             "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
           },
           "author": {
             "minLength": 1,
@@ -2022,10 +2050,6 @@
           "year": {
             "type": "integer",
             "format": "int32"
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
           },
           "quantity": {
             "type": "integer",
