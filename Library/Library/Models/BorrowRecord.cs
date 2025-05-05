@@ -21,7 +21,7 @@ namespace Library.Models
         public bool IsReturned { get; set; } = false;
         public bool IsOnline { get; set; } = false;
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public bool Overdue { get; private set; }= false;
+        public bool Overdue { get; set; }= false;
         public bool overdue()
         {
             return !IsReturned && DateTime.UtcNow > DueDate;

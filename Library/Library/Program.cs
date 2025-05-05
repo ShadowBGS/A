@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,7 +58,37 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddControllers()
      .AddNewtonsoftJson();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(); // This correctly enables Swagger
+builder.Services.AddSwaggerGen(options =>
+{
+    
+
+    // Add JWT Bearer definition
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter 'Bearer' [space] and then your valid JWT token.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIs...\""
+    });
+
+    // Make sure Swagger UI requires this token for secured endpoints
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+}); // This correctly enables Swagger
 
 
 //builder.Services.AddDbContext<AppDbContext>(options =>
@@ -65,6 +96,7 @@ builder.Services.AddSwaggerGen(); // This correctly enables Swagger
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 var uploadsPath = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
+builder.Services.AddHostedService<UpdateOverdueStatusService>();
 if (!Directory.Exists(uploadsPath))
 {
     Directory.CreateDirectory(uploadsPath);
