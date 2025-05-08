@@ -2117,8 +2117,7 @@
             "type": "boolean"
           },
           "overdue": {
-            "type": "boolean",
-            "readOnly": true
+            "type": "boolean"
           },
           "isLateReturn": {
             "type": "boolean",

@@ -265,7 +265,7 @@ namespace Library.Controllers
             _logger.LogInformation("Borrow request submitted for UserId {UserId} and book {SerialNumber}. Awaiting admin approval.", UserId, serialNumber);
             return Ok(new { message = "Borrow request submitted. Await admin approval.", borrowCode });
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("pending-borrows")]
         [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetPendingBorrows()
@@ -308,7 +308,7 @@ namespace Library.Controllers
 
             return Ok(pendingBorrows);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("approve-borrow/{borrowCode}")]
         public async Task<IActionResult> ApproveBorrowRequest(string borrowCode)
         {
@@ -646,7 +646,7 @@ namespace Library.Controllers
             _logger.LogInformation($"Return request submitted for UserId: {UserId}, SerialNumber: {serialNumber}, ReturnCode: {returnCode}");
             return Ok(new { message = "Return request submitted. Await admin approval.", returnCode });
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("pending-returns")]
         [ResponseCache(Duration = 60)]
         public async Task<IActionResult> GetPendingReturns()
@@ -689,7 +689,7 @@ namespace Library.Controllers
 
             return Ok(pendingReturns);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("approve-return/{returnCode}")]
         public async Task<IActionResult> ApproveReturn(string returnCode)
         {
@@ -793,7 +793,7 @@ namespace Library.Controllers
             var imageFileStream = System.IO.File.OpenRead(imagePath);
             return File(imageFileStream, "image/png"); // Ensure the correct MIME type
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet("PDF/{serialNumber}")]
         [ResponseCache(Duration = 60)]
         public IActionResult GetBookPDF(string serialNumber)
@@ -874,6 +874,7 @@ namespace Library.Controllers
         }
 
         // POST: api/Books (Create Book with Image)
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<Book>> CreateBook([FromForm] CreateBookDto createBookDto, IFormFile file, IFormFile? PDF)
         {
@@ -916,6 +917,7 @@ namespace Library.Controllers
         }
 
         // PUT: api/Books/{serialNumber} (Update Book Details)
+        [Authorize(Roles = "Admin")]
         [HttpPut("{serialNumber}")]
         public async Task<IActionResult> UpdateBook(string serialNumber, [FromForm] UpdateBookDto updatedBook, IFormFile file)
         {
@@ -1121,7 +1123,7 @@ namespace Library.Controllers
                 BorrowHistory = borrowHistory
             });
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPatch("{serialNumber}")]
         public async Task<IActionResult> PatchBook(string serialNumber, [FromBody] JsonPatchDocument<Book> patchDoc)
         {
@@ -1296,7 +1298,7 @@ namespace Library.Controllers
                 }
             }
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{serialNumber}")]
         public async Task<IActionResult> DeleteBook(string serialNumber)
         {

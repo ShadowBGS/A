@@ -18,13 +18,23 @@ namespace Library.Services
 
         public string GenerateToken(User user)
         {
-            var claims = new[]
+            var claims = new List<Claim>
+    {
+        new Claim(JwtRegisteredClaimNames.Sub, user.UserId),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+
+        // Always add user's primary role
+        new Claim(ClaimTypes.Role, user.UserType),
+
+        // Optionally include admin flag (for other app logic, optional)
+        new Claim("isAdmin", user.IsAdmin.ToString())
+    };
+
+            // If the user is a Lecturer and also an Admin, add Admin as a role
+            if (user.UserType == "Lecturer" && user.IsAdmin)
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.UserId),
-                new Claim(ClaimTypes.Role, user.UserType),
-                new Claim("isAdmin", user.IsAdmin.ToString()),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-            };
+                claims.Add(new Claim(ClaimTypes.Role, "Admin"));
+            }
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -39,5 +49,6 @@ namespace Library.Services
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
     }
 }
